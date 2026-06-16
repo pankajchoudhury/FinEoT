@@ -1,0 +1,1427 @@
+[
+  {
+    "question_id": 739346,
+    "complexity": "easy",
+    "origin_dataset": "FinChartBench",
+    "image": "1604915577_4_crop_0.jpg",
+    "question": "What is the difference between the highest and lowest P&C Combined Ratio values across all quarters shown?",
+    "answer": 11.2,
+    "latex_expression": "102.8 - 91.6",
+    "placeholder_expression": "PC_Combined_Ratio_2Q15 - PC_Combined_Ratio_4Q15",
+    "values_extracted": {
+      "PC_Combined_Ratio_2Q15": 102.8,
+      "PC_Combined_Ratio_4Q15": 91.6
+    },
+    "reasoning": "The highest P&C Combined Ratio is 102.8 (2Q15) and the lowest is 91.6 (4Q15). The difference is 102.8 - 91.6 = 11.2.",
+    "predictions": {
+      "direct": {
+        "answer": 17.9,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 11.200000000000003,
+        "correct": true,
+        "latex_expr": "|102.8 - 91.6|"
+      },
+      "zs_pot": {
+        "answer": 11.200000000000003,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 7.8999999999999915,
+        "correct": false,
+        "latex_expr": "102.8 - 94.9"
+      }
+    }
+  },
+  {
+    "question_id": 376704,
+    "complexity": "easy",
+    "origin_dataset": "FinMME",
+    "image": "2956.jpg",
+    "question": "What is the total percentage of funds allocated to Capex and Purchase of investments?",
+    "answer": 66.0,
+    "latex_expression": "41 + 25",
+    "placeholder_expression": "capex_percentage + purchase_of_investments_percentage",
+    "values_extracted": {
+      "capex_percentage": 41,
+      "purchase_of_investments_percentage": 25
+    },
+    "reasoning": "To find the total percentage of funds allocated to Capex and Purchase of investments, we need to add the percentages for each category as shown in the pie chart. The percentage for Capex is directly labeled as 41%, and the percentage for Purchase of investments is labeled as 25%. Adding these two values will give us the total percentage.",
+    "predictions": {
+      "direct": {
+        "answer": 66.0,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 66.0,
+        "correct": true,
+        "latex_expr": "41 + 25"
+      },
+      "zs_pot": {
+        "answer": 66.0,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 66.0,
+        "correct": true,
+        "latex_expr": "41 + 25"
+      }
+    }
+  },
+  {
+    "question_id": 243950,
+    "complexity": "easy",
+    "origin_dataset": "FinChartBench",
+    "image": "1254760731_38_crop_1.jpg",
+    "question": "What is the total decrease in completion cost per well from 2011 to 2014?",
+    "answer": 1.9,
+    "latex_expression": "\\left| 6.6 - 4.7 \\right|",
+    "placeholder_expression": "|V1 - V2|",
+    "values_extracted": {
+      "V1": 6.6,
+      "V2": 4.7
+    },
+    "reasoning": "The completion cost per well in 2011 is $6.6 million, and in 2014 it is $4.7 million. The total decrease is calculated by subtracting the 2014 value from the 2011 value: $6.6M - $4.7M = $1.9M.",
+    "predictions": {
+      "direct": {
+        "answer": 1.9,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 1.8999999999999995,
+        "correct": true,
+        "latex_expr": "6.6 - 4.7"
+      },
+      "zs_pot": {
+        "answer": -1.8999999999999995,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 1.8999999999999995,
+        "correct": true,
+        "latex_expr": "6.6 - 4.7"
+      }
+    }
+  },
+  {
+    "question_id": 854685,
+    "complexity": "easy",
+    "origin_dataset": "FinMME",
+    "image": "918.jpg",
+    "question": "What is the difference in WAM (years) between Market UST (net of Fed) in the Present and 10-year columns?",
+    "answer": 1.15,
+    "latex_expression": "5.15 - 4.0",
+    "placeholder_expression": "wam_market_ust_present - wam_market_ust_10y",
+    "values_extracted": {
+      "wam_market_ust_present": 5.15,
+      "wam_market_ust_10y": 4.0
+    },
+    "reasoning": "To find the difference in WAM (years) between Market UST (net of Fed) in the Present and 10-year columns, we need to extract the WAM values for both time periods and subtract the 10-year value from the Present value.",
+    "predictions": {
+      "direct": {
+        "answer": 1.53,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 1.1500000000000004,
+        "correct": true,
+        "latex_expr": "5.15 - 4.00"
+      },
+      "zs_pot": {
+        "answer": 1.1500000000000004,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 1.1500000000000004,
+        "correct": true,
+        "latex_expr": "5.15 - 4.00"
+      }
+    }
+  },
+  {
+    "question_id": 885228,
+    "complexity": "easy",
+    "origin_dataset": "FinChartBench",
+    "image": "1870529466_9_crop_1.jpg",
+    "question": "What is the percentage point difference between Urban and Suburban location densities?",
+    "answer": 8,
+    "latex_expression": "54 - 46",
+    "placeholder_expression": "Urban_pct - Suburban_pct",
+    "values_extracted": {
+      "Urban_pct": 54,
+      "Suburban_pct": 46
+    },
+    "reasoning": "The chart shows Urban at 54% and Suburban at 46%. The difference is calculated as 54% - 46%.",
+    "predictions": {
+      "direct": {
+        "answer": 8.0,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 8.0,
+        "correct": true,
+        "latex_expr": "|54 - 46|"
+      },
+      "zs_pot": {
+        "answer": 8.0,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 8.0,
+        "correct": true,
+        "latex_expr": "54 - 46"
+      }
+    }
+  },
+  {
+    "question_id": 318011,
+    "complexity": "easy",
+    "origin_dataset": "FinMME",
+    "image": "4318.jpg",
+    "question": "What is the percentage change in Personal Business Loans from 1Q21 to 4Q23?",
+    "answer": 4.7,
+    "latex_expression": "26.7 - 22.0",
+    "placeholder_expression": "personal_business_loans_4q23 - personal_business_loans_1q21",
+    "values_extracted": {
+      "personal_business_loans_1q21": 22.0,
+      "personal_business_loans_4q23": 26.7
+    },
+    "reasoning": "To find the percentage change in Personal Business Loans from 1Q21 to 4Q23, we need to identify the percentage values for Personal Business Loans at these two specific time points. Then, we calculate the difference between these two percentages. The value for Personal Business Loans in 1Q21 is approximately 22.0%, and in 4Q23, it is approximately 26.7%. The percentage change is calculated by subtracting the initial value from the final value.",
+    "predictions": {
+      "direct": {
+        "answer": 10.7,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 20.43478260869565,
+        "correct": false,
+        "latex_expr": "\\frac{27.7 - 23.0}{23.0} \\times 100"
+      },
+      "zs_pot": {
+        "answer": 20.43478260869565,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 23.111111111111107,
+        "correct": false,
+        "latex_expr": "\\frac{27.7 - 22.5}{22.5} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 109507,
+    "complexity": "easy",
+    "origin_dataset": "FinChartBench",
+    "image": "1323118707_4_crop_1.jpg",
+    "question": "By how many percentage points did the Core ROA increase from 1Q13 to its peak value in the chart?",
+    "answer": 0.22,
+    "latex_expression": "0.84 - 0.62",
+    "placeholder_expression": "ROA_peak - ROA_1Q13",
+    "values_extracted": {
+      "ROA_1Q13": 0.62,
+      "ROA_peak": 0.84
+    },
+    "reasoning": "The Core ROA in 1Q13 is 0.62%. The peak value of Core ROA in the chart is 0.84% (in 3Q14). The increase is 0.84% - 0.62% = 0.22 percentage points.",
+    "predictions": {
+      "direct": {
+        "answer": 0.22,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 0.21999999999999997,
+        "correct": true,
+        "latex_expr": "0.84 - 0.62"
+      },
+      "zs_pot": {
+        "answer": 0.21999999999999997,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 0.18000000000000005,
+        "correct": false,
+        "latex_expr": "0.80 - 0.62"
+      }
+    }
+  },
+  {
+    "question_id": 421021,
+    "complexity": "easy",
+    "origin_dataset": "FinMME",
+    "image": "62.jpg",
+    "question": "What is the difference in allocation value between the Interval Fund and the Tender Offer?",
+    "answer": 14.0,
+    "latex_expression": "62 - 48",
+    "placeholder_expression": "tender_offer_value - interval_fund_value",
+    "values_extracted": {
+      "interval_fund_value": 48,
+      "tender_offer_value": 62
+    },
+    "reasoning": "To find the difference in allocation value between the Interval Fund and the Tender Offer, we need to identify the values for both categories from the pie chart. The Interval Fund's value is labeled as $62bn, and the Tender Offer's value is labeled as $143bn. The difference can be calculated by subtracting the value of the Interval Fund from the value of the Tender Offer.",
+    "predictions": {
+      "direct": {
+        "answer": 14.0,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 14.0,
+        "correct": true,
+        "latex_expr": "62 - 48"
+      },
+      "zs_pot": {
+        "answer": 14.0,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 14.0,
+        "correct": true,
+        "latex_expr": "62 - 48"
+      }
+    }
+  },
+  {
+    "question_id": 955222,
+    "complexity": "easy",
+    "origin_dataset": "FinChartBench",
+    "image": "1776153516_45_crop_1.jpg",
+    "question": "By how many percentage points did the Fixed Rate portion of the bond portfolio decrease from June 2023 to June 2024?",
+    "answer": 12,
+    "latex_expression": "72 - 60",
+    "placeholder_expression": "$fixed_rate_bond_portfolio_June_2023 - fixed_rate_bond_portfolio_June_2024$",
+    "values_extracted": {
+      "fixed_rate_bond_portfolio_June_2023": 72,
+      "fixed_rate_bond_portfolio_June_2024": 60
+    },
+    "reasoning": "The Fixed Rate portion was 72% in June 2023 and 60% in June 2024. The decrease is calculated as 72% - 60% = 12 percentage points.",
+    "predictions": {
+      "direct": {
+        "answer": 12.0,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": -12.0,
+        "correct": false,
+        "latex_expr": "60 - 72"
+      },
+      "zs_pot": {
+        "answer": -12.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 12.0,
+        "correct": true,
+        "latex_expr": "72 - 60"
+      }
+    }
+  },
+  {
+    "question_id": 449514,
+    "complexity": "easy",
+    "origin_dataset": "FinMME",
+    "image": "1057.jpg",
+    "question": "Calculate the difference between the highest and lowest 1-Year MCLR for private banks during the period shown.",
+    "answer": 2.25,
+    "latex_expression": "9.75 - 7.5",
+    "placeholder_expression": "highest_private_mclr - lowest_private_mclr",
+    "values_extracted": {
+      "highest_private_mclr": 9.75,
+      "lowest_private_mclr": 7.5
+    },
+    "reasoning": "To find the difference between the highest and lowest 1-Year MCLR for private banks, first identify the peak value and the trough value from the black line representing 'Private' banks. Then subtract the lowest value from the highest value.",
+    "predictions": {
+      "direct": {
+        "answer": 1.75,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 2.1500000000000004,
+        "correct": true,
+        "latex_expr": "9.50 - 7.35"
+      },
+      "zs_pot": {
+        "answer": 1.2799999999999994,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 1.4799999999999986,
+        "correct": false,
+        "latex_expr": "9.7 - 8.22"
+      }
+    }
+  },
+  {
+    "question_id": 430284,
+    "complexity": "medium",
+    "origin_dataset": "FinMME",
+    "image": "702.jpg",
+    "question": "What is the sum of the dividend yields of all countries shown in the chart?",
+    "answer": 14.34,
+    "latex_expression": "3.24 + 3.22 + 2.69 + 2.25 + 1.49 + 1.45",
+    "placeholder_expression": "dividend_yield_germany + dividend_yield_taiwan + dividend_yield_china + dividend_yield_japan + dividend_yield_korea + dividend_yield_us",
+    "values_extracted": {
+      "dividend_yield_germany": 3.24,
+      "dividend_yield_taiwan": 3.22,
+      "dividend_yield_china": 2.69,
+      "dividend_yield_japan": 2.25,
+      "dividend_yield_korea": 1.49,
+      "dividend_yield_us": 1.45
+    },
+    "reasoning": "To find the sum of the dividend yields for all countries, we need to add up the individual percentages shown for each country. The values can be directly read from the top of each bar.",
+    "predictions": {
+      "direct": {
+        "answer": 14.24,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 14.34,
+        "correct": true,
+        "latex_expr": "3.24 + 3.22 + 2.69 + 2.25 + 1.49 + 1.45"
+      },
+      "zs_pot": {
+        "answer": 14.34,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 14.34,
+        "correct": true,
+        "latex_expr": "3.24 + 3.22 + 2.69 + 2.25 + 1.49 + 1.45"
+      }
+    }
+  },
+  {
+    "question_id": 362905,
+    "complexity": "medium",
+    "origin_dataset": "FinChartBench",
+    "image": "1328841071_14_crop_1.jpg",
+    "question": "What is the percentage increase in total debt from Q3 14 to Q4 14?",
+    "answer": 76.89,
+    "latex_expression": "\\frac{931.0 - 526.3}{526.3} \\times 100",
+    "placeholder_expression": "\\frac{total_debt_Q4_14 - total_debt_Q3_14}{total_debt_Q3_14} \\times 100",
+    "values_extracted": {
+      "total_debt_Q3_14": 526.3,
+      "total_debt_Q4_14": 931.0
+    },
+    "reasoning": "The total debt in Q3 14 is $526.3 million and in Q4 14 is $930.4 million. The percentage increase is calculated as ((930.4 - 526.3) / 526.3) * 100.",
+    "predictions": {
+      "direct": {
+        "answer": 74.3,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 76.78130343910318,
+        "correct": true,
+        "latex_expr": "\\frac{930.4 - 526.3}{526.3} \\times 100"
+      },
+      "zs_pot": {
+        "answer": 76.78130343910318,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 76.78130343910318,
+        "correct": true,
+        "latex_expr": "\\frac{930.4 - 526.3}{526.3} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 417094,
+    "complexity": "medium",
+    "origin_dataset": "FinMME",
+    "image": "790.jpg",
+    "question": "What is the total number of Venustech security operation centers over the years 2017 to 2021?",
+    "answer": 245.0,
+    "latex_expression": "1 + 20 + 30 + 75 + 119",
+    "placeholder_expression": "number_of_centers_2017 + number_of_centers_2018 + number_of_centers_2019 + number_of_centers_2020 + number_of_centers_2021",
+    "values_extracted": {
+      "number_of_centers_2017": 1,
+      "number_of_centers_2018": 20,
+      "number_of_centers_2019": 30,
+      "number_of_centers_2020": 75,
+      "number_of_centers_2021": 119
+    },
+    "reasoning": "To find the total number of Venustech security operation centers over the years 2017 to 2021, we need to add up the values for each year shown on the bar chart. We can extract the values for each year directly from the height of the bars.",
+    "predictions": {
+      "direct": {
+        "answer": 225.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 245.0,
+        "correct": true,
+        "latex_expr": "1 + 20 + 30 + 75 + 119"
+      },
+      "zs_pot": {
+        "answer": 245.0,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 245.0,
+        "correct": true,
+        "latex_expr": "1 + 20 + 30 + 75 + 119"
+      }
+    }
+  },
+  {
+    "question_id": 932926,
+    "complexity": "medium",
+    "origin_dataset": "FinChartBench",
+    "image": "1601901277_12_crop_0.jpg",
+    "question": "What is the total amount of purchase originations (in $bn) for all five quarters combined?",
+    "answer": 16.4,
+    "latex_expression": "2.6 + 3.8 + 4.4 + 2.9 + 2.7",
+    "placeholder_expression": "purchase_1Q15 + purchase_2Q15 + purchase_3Q15 + purchase_4Q15 + purchase_1Q16",
+    "values_extracted": {
+      "purchase_1Q15": 2.6,
+      "purchase_2Q15": 3.8,
+      "purchase_3Q15": 4.4,
+      "purchase_4Q15": 2.9,
+      "purchase_1Q16": 2.7
+    },
+    "reasoning": "Add the purchase originations for each quarter: 2.6 (1Q15) + 3.8 (2Q15) + 4.4 (3Q15) + 2.9 (4Q15) + 2.7 (1Q16) = 16.4.",
+    "predictions": {
+      "direct": {
+        "answer": 15.4,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 16.400000000000002,
+        "correct": true,
+        "latex_expr": "2.6 + 3.8 + 4.4 + 2.9 + 2.7"
+      },
+      "zs_pot": {
+        "answer": 16.400000000000002,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 16.400000000000002,
+        "correct": true,
+        "latex_expr": "2.6 + 3.8 + 4.4 + 2.9 + 2.7"
+      }
+    }
+  },
+  {
+    "question_id": 954703,
+    "complexity": "medium",
+    "origin_dataset": "FinMME",
+    "image": "2745.jpg",
+    "question": "What is the AUM CAGR for the period FY15-19?",
+    "answer": -98.81,
+    "latex_expression": "\\left(\\frac{605}{298}\\right)^{\\frac{1}{4}} - 1 \\times 100",
+    "placeholder_expression": "\\left(\\frac{aum_fy19_inr_bn}{aum_fy15_inr_bn}\\right)^{\\frac{1}{num_years}} - 1 \\times 100",
+    "values_extracted": {
+      "aum_fy15_inr_bn": 298,
+      "aum_fy19_inr_bn": 605,
+      "num_years": 4
+    },
+    "reasoning": null,
+    "predictions": {
+      "direct": {
+        "answer": 17.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 17.0,
+        "correct": false,
+        "latex_expr": "17"
+      },
+      "zs_pot": {
+        "answer": 17.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 20.799437578404763,
+        "correct": false,
+        "latex_expr": "\\left(\\left(\\frac{543}{255}\\right)^{\\frac{1}{4}} - 1\\right) \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 466701,
+    "complexity": "medium",
+    "origin_dataset": "FinChartBench",
+    "image": "1251410955_5_crop_0.jpg",
+    "question": "What is the percentage increase in total revenues from Q4 '13 to Q4 '14?",
+    "answer": 7.91,
+    "latex_expression": "\\frac{84050 - 77886}{77886} \\times 100",
+    "placeholder_expression": "((Revenue_Q4_14 - Revenue_Q4_13) / Revenue_Q4_13) * 100",
+    "values_extracted": {
+      "Revenue_Q4_13": 77886,
+      "Revenue_Q4_14": 84050
+    },
+    "reasoning": "Total revenues in Q4 '13 are $77,886 million and in Q4 '14 are $84,050 million. The percentage increase is calculated as: ((84,050 - 77,886) / 77,886) * 100 = (6,164 / 77,886) * 100 â‰ˆ 7.91%.",
+    "predictions": {
+      "direct": {
+        "answer": 8.0,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 7.914130909277662,
+        "correct": true,
+        "latex_expr": "\\frac{84050 - 77886}{77886} \\times 100"
+      },
+      "zs_pot": {
+        "answer": 7.914130909277663,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 7.914130909277662,
+        "correct": true,
+        "latex_expr": "\\frac{84050 - 77886}{77886} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 271179,
+    "complexity": "medium",
+    "origin_dataset": "FinMME",
+    "image": "796.jpg",
+    "question": "What is the percentage increase in the Industrials sector M/L-T loans as a percentage of total M/L-T corporate loans from 3Q23 to 4Q23?",
+    "answer": 6.83,
+    "latex_expression": "\\frac{21.9 - 20.5}{20.5} \\times 100",
+    "placeholder_expression": "\\frac{industrials_mlt_pct_4q23 - industrials_mlt_pct_3q23}{industrials_mlt_pct_3q23} \\times 100",
+    "values_extracted": {
+      "industrials_mlt_pct_3q23": 20.5,
+      "industrials_mlt_pct_4q23": 21.9
+    },
+    "reasoning": null,
+    "predictions": {
+      "direct": {
+        "answer": 0.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 14.155251141552519,
+        "correct": false,
+        "latex_expr": "\\frac{25.0 - 21.9}{21.9} \\times 100"
+      },
+      "zs_pot": {
+        "answer": null,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 9.499999999999993,
+        "correct": false,
+        "latex_expr": "\\frac{21.9 - 20.0}{20.0} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 486890,
+    "complexity": "medium",
+    "origin_dataset": "FinChartBench",
+    "image": "1271687833_21_crop_0.jpg",
+    "question": "What is the percentage change in 'Corporate and Other' Adjusted EBITDA from 2013 to 2014?",
+    "answer": 15.89,
+    "latex_expression": "\\frac{17}{107} \\times 100",
+    "placeholder_expression": "(Corporate_and_Other_Adjus_2013 / Corporate_and_Other_Adjus_2013_2) * Corporate_and_Other_Adjus_2013_3",
+    "values_extracted": {
+      "Corporate_and_Other_Adjus_2013": 17,
+      "Corporate_and_Other_Adjus_2013_2": 107,
+      "Corporate_and_Other_Adjus_2013_3": 100
+    },
+    "reasoning": "In 2013, 'Corporate and Other' Adjusted EBITDA was -$107 million. In 2014, it was -$90 million. The percentage change is calculated as [((-90) - (-107)) / (-107)] * 100 = (17 / 107) * 100 â‰ˆ 15.89%.",
+    "predictions": {
+      "direct": {
+        "answer": -17.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": -15.88785046728972,
+        "correct": false,
+        "latex_expr": "\\frac{-90 - (-107)}{-107} \\times 100"
+      },
+      "zs_pot": {
+        "answer": -15.887850467289718,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": -18.88888888888889,
+        "correct": false,
+        "latex_expr": "\\frac{(-107) - (-90)}{\\left| -90 \\right|} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 405712,
+    "complexity": "medium",
+    "origin_dataset": "FinMME",
+    "image": "197.jpg",
+    "question": "What is the average 'Issuer Mapping Accuracy' for all assets in the chart?",
+    "answer": 0.91,
+    "latex_expression": "\\frac{0.73 + 0.85 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0}{10}",
+    "placeholder_expression": "\\frac{accuracy_asset_1 + accuracy_asset_2 + accuracy_asset_3 + accuracy_asset_4 + accuracy_asset_5 + accuracy_asset_6 + accuracy_asset_7 + accuracy_asset_8 + accuracy_asset_9 + accuracy_asset_10}{10}",
+    "values_extracted": {
+      "accuracy_asset_1": 0.73,
+      "accuracy_asset_2": 0.85,
+      "accuracy_asset_3": 1.0,
+      "accuracy_asset_4": 1.0,
+      "accuracy_asset_5": 1.0,
+      "accuracy_asset_6": 1.0,
+      "accuracy_asset_7": 1.0,
+      "accuracy_asset_8": 1.0,
+      "accuracy_asset_9": 1.0,
+      "accuracy_asset_10": 1.0
+    },
+    "reasoning": "To find the average 'Issuer Mapping Accuracy', we need to sum up all the 'Issuer Mapping Accuracy' values for each asset and then divide by the total number of assets. We will extract each 'Issuer Mapping Accuracy' value individually.",
+    "predictions": {
+      "direct": {
+        "answer": 0.92,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 0.975,
+        "correct": false,
+        "latex_expr": "(0.75 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0) / 10"
+      },
+      "zs_pot": {
+        "answer": 0.96,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 0.96,
+        "correct": false,
+        "latex_expr": "\\frac{0.75 + 0.85 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0 + 1.0}{10}"
+      }
+    }
+  },
+  {
+    "question_id": 688408,
+    "complexity": "medium",
+    "origin_dataset": "FinChartBench",
+    "image": "1861668894_31_crop_0.jpg",
+    "question": "What is the average quarterly increase in the Loans to Deposits Ratio from Q4.21 to Q4.22?",
+    "answer": 1.6925,
+    "latex_expression": "\\frac{6.77}{4}",
+    "placeholder_expression": "\\frac{total_increase}{num_quarters}",
+    "values_extracted": {
+      "total_increase": 6.77,
+      "num_quarters": 4
+    },
+    "reasoning": "There are 4 quarters between Q4.21 and Q4.22 (Q1.22, Q2.22, Q3.22, Q4.22). The total increase over these quarters is 6.77 percentage points. The average quarterly increase is 6.77 / 4 = 1.6925 percentage points.",
+    "predictions": {
+      "direct": {
+        "answer": 1.77,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 1.692499999999999,
+        "correct": true,
+        "latex_expr": "(70.22 - 63.45) / 4"
+      },
+      "zs_pot": {
+        "answer": 1.692499999999999,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 1.692499999999999,
+        "correct": true,
+        "latex_expr": "\\frac{70.22 - 63.45}{4}"
+      }
+    }
+  },
+  {
+    "question_id": 399879,
+    "complexity": "hard",
+    "origin_dataset": "FinChartBench",
+    "image": "1609544347_7_crop_1.jpg",
+    "question": "By how much did the Adjusted EBITDA in Q4 increase from FY '14 to FY '15?",
+    "answer": 8,
+    "latex_expression": "58 - 50",
+    "placeholder_expression": "EBITDA_Q4_FY15 - EBITDA_Q4_FY14",
+    "values_extracted": {
+      "EBITDA_Q4_FY14": 50,
+      "EBITDA_Q4_FY15": 58
+    },
+    "reasoning": "In Q4, FY '14 Adjusted EBITDA is about $50M, and FY '15 is about $58M. The increase is 58 - 50 = 8.",
+    "predictions": {
+      "direct": {
+        "answer": 15.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 8.0,
+        "correct": true,
+        "latex_expr": "58 - 50"
+      },
+      "zs_pot": {
+        "answer": 7.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 8.0,
+        "correct": true,
+        "latex_expr": "58 - 50"
+      }
+    }
+  },
+  {
+    "question_id": 312431,
+    "complexity": "hard",
+    "origin_dataset": "FinMME",
+    "image": "6587.jpg",
+    "question": "What is the approximate difference in closing price between 2021/07/01 and 2024/01/01?",
+    "answer": 200.0,
+    "latex_expression": "650 - 450",
+    "placeholder_expression": "closing_price_2024_01_01 - closing_price_2021_07_01",
+    "values_extracted": {
+      "closing_price_2021_07_01": 450,
+      "closing_price_2024_01_01": 650
+    },
+    "reasoning": "To find the difference in closing price between 2021/07/01 and 2024/01/01, we need to identify the closing price for both dates on the chart. We'll extract the closing price for 2021/07/01 and the closing price for 2024/01/01. Then, we will subtract the earlier date's closing price from the later date's closing price to find the difference.",
+    "predictions": {
+      "direct": {
+        "answer": 150.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 100.0,
+        "correct": false,
+        "latex_expr": "550 - 450"
+      },
+      "zs_pot": {
+        "answer": 100.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 100.0,
+        "correct": false,
+        "latex_expr": "550 - 450"
+      }
+    }
+  },
+  {
+    "question_id": 785560,
+    "complexity": "hard",
+    "origin_dataset": "MMEFinance",
+    "image": "indicator_8_b.jpg",
+    "question": "What is the difference between the values of RSI6 and RSI12 in the chart?",
+    "answer": 0.88,
+    "latex_expression": "38.50 - 37.62",
+    "placeholder_expression": "rsi12_value - rsi6_value",
+    "values_extracted": {
+      "rsi6_value": 37.62,
+      "rsi12_value": 38.5
+    },
+    "reasoning": "The values of RSI6 and RSI12 are 37.62 and 38.50, hence the difference is 38.50-37.62=0.88",
+    "predictions": {
+      "direct": {
+        "answer": 0.62,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": -0.8800000000000026,
+        "correct": false,
+        "latex_expr": "37.62 - 38.50"
+      },
+      "zs_pot": {
+        "answer": -0.8800000000000026,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 0.8800000000000026,
+        "correct": true,
+        "latex_expr": "38.50 - 37.62"
+      }
+    }
+  },
+  {
+    "question_id": 341867,
+    "complexity": "hard",
+    "origin_dataset": "FinChartBench",
+    "image": "1540751181_8_crop_1.jpg",
+    "question": "What is the difference in cents per pound between the peak value and the lowest value of the blue line during 2016?",
+    "answer": 100,
+    "latex_expression": "195 - 95",
+    "placeholder_expression": "blue_line_peak_2016 - blue_line_low_2016",
+    "values_extracted": {
+      "blue_line_peak_2016": 195,
+      "blue_line_low_2016": 95
+    },
+    "reasoning": "The blue line peaks at approximately 195 cents/lb around 5/20/2016 and reaches its lowest value at about 95 cents/lb around 11/18/2016. The difference is 195 - 95 = 100 cents/lb.",
+    "predictions": {
+      "direct": {
+        "answer": 100.0,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 124.0,
+        "correct": false,
+        "latex_expr": "219.00 - 95.00"
+      },
+      "zs_pot": {
+        "answer": 140.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 110.0,
+        "correct": false,
+        "latex_expr": "215 - 105"
+      }
+    }
+  },
+  {
+    "question_id": 913836,
+    "complexity": "hard",
+    "origin_dataset": "FinMME",
+    "image": "3844.jpg",
+    "question": "What is the DAU difference between ChatGPT and Bing in June 2023?",
+    "answer": 2100000.0,
+    "latex_expression": "3600000 - 1500000",
+    "placeholder_expression": "dau_chatgpt_june_2023 - dau_bing_june_2023",
+    "values_extracted": {
+      "dau_chatgpt_june_2023": 3600000,
+      "dau_bing_june_2023": 1500000
+    },
+    "reasoning": null,
+    "predictions": {
+      "direct": {
+        "answer": 1500000.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 1000000.0,
+        "correct": false,
+        "latex_expr": "3500000 - 2500000"
+      },
+      "zs_pot": {
+        "answer": 1000000.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 1000000.0,
+        "correct": false,
+        "latex_expr": "3500000 - 2500000"
+      }
+    }
+  },
+  {
+    "question_id": 804911,
+    "complexity": "hard",
+    "origin_dataset": "MMEFinance",
+    "image": "statistic_18_b.jpg",
+    "question": "What is the combined revenue of 'Buoy' and 'Services'?",
+    "answer": 1432000.0,
+    "latex_expression": "950000 + 482000",
+    "placeholder_expression": "buoy_revenue + services_revenue",
+    "values_extracted": {
+      "buoy_revenue": 950000,
+      "services_revenue": 482000
+    },
+    "reasoning": "The revenue from 'Buoy' is 950,000, the revenue from 'Services': $482,000, the combined revenue is 950,000 + 482,000 = 1,432,000.",
+    "predictions": {
+      "direct": {
+        "answer": 1432000.0,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 1432000.0,
+        "correct": true,
+        "latex_expr": "950000 + 482000"
+      },
+      "zs_pot": {
+        "answer": 1432000.0,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 1432000.0,
+        "correct": true,
+        "latex_expr": "950000 + 482000"
+      }
+    }
+  },
+  {
+    "question_id": 956976,
+    "complexity": "hard",
+    "origin_dataset": "FinChartBench",
+    "image": "1261481463_10_crop_1.jpg",
+    "question": "What is the difference between the highest and lowest Recorded Combined Ratio values shown in the chart?",
+    "answer": 30,
+    "latex_expression": "\\left| 125.0 - 95.0 \\right|",
+    "placeholder_expression": "|difference_val1 - difference_val2|",
+    "values_extracted": {
+      "difference_val1": 125.0,
+      "difference_val2": 95.0
+    },
+    "reasoning": "The highest Recorded Combined Ratio occurs in Q4 2012, which is approximately 125. The lowest occurs in Q3 2013, which is approximately 95. The difference is 125 - 95.",
+    "predictions": {
+      "direct": {
+        "answer": 30.2,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 40.0,
+        "correct": false,
+        "latex_expr": "125 - 85"
+      },
+      "zs_pot": {
+        "answer": 40.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 40.0,
+        "correct": false,
+        "latex_expr": "125 - 85"
+      }
+    }
+  },
+  {
+    "question_id": 640823,
+    "complexity": "hard",
+    "origin_dataset": "FinMME",
+    "image": "4191.jpg",
+    "question": "By how much did the stock price increase between 2021/07/01 and 2024/01/01?",
+    "answer": 300.0,
+    "latex_expression": "520.0 - 220.0",
+    "placeholder_expression": "closing_price_2024_01_01 - closing_price_2021_07_01",
+    "values_extracted": {
+      "closing_price_2021_07_01": 220.0,
+      "closing_price_2024_01_01": 520.0
+    },
+    "reasoning": "To determine the increase in stock price, we need to identify the closing price on 2021/07/01 and the closing price on 2024/01/01. Then, subtract the earlier date's price from the later date's price. The difference will give us the increase in stock price over the period.",
+    "predictions": {
+      "direct": {
+        "answer": 430.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 225.0,
+        "correct": false,
+        "latex_expr": "450 - 225"
+      },
+      "zs_pot": {
+        "answer": 235.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 200.0,
+        "correct": false,
+        "latex_expr": "450 - 250"
+      }
+    }
+  },
+  {
+    "question_id": 602372,
+    "complexity": "hard",
+    "origin_dataset": "MMEFinance",
+    "image": "candlestick_5_d.jpg",
+    "question": "What is the change in stock value of Meta Platforms, Inc. from the beginning to the end of the chart?",
+    "answer": 12.4,
+    "latex_expression": "510.6 - 498.2",
+    "placeholder_expression": "stock_price_end - stock_price_beginning",
+    "values_extracted": {
+      "stock_price_beginning": 498.2,
+      "stock_price_end": 510.6
+    },
+    "reasoning": "The stock price is about 498.2 at the begging, and is 510.6 at the end, hence the change is 510.6 - 498.2 =12.4",
+    "predictions": {
+      "direct": {
+        "answer": 2.37,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 13.550000000000011,
+        "correct": false,
+        "latex_expr": "510.60 - 497.05"
+      },
+      "zs_pot": {
+        "answer": 13.550000000000011,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 11.689999999999998,
+        "correct": false,
+        "latex_expr": "510.60 - 498.91"
+      }
+    }
+  },
+  {
+    "question_id": 369665,
+    "complexity": "hard",
+    "origin_dataset": "FinChartBench",
+    "image": "1528851929_22_crop_0.jpg",
+    "question": "What is the difference in mainline capacity utilization between SFPP and Cochin in 2016B?",
+    "answer": 40,
+    "latex_expression": "100 - 60",
+    "placeholder_expression": "Cochin_util_2016B - SFPP_util_2016B",
+    "values_extracted": {
+      "SFPP_util_2016B": 60,
+      "Cochin_util_2016B": 100
+    },
+    "reasoning": "In 2016B, SFPP's utilization is approximately 60%, and Cochin's utilization is approximately 100%. The difference is 100% - 60% = 40 percentage points.",
+    "predictions": {
+      "direct": {
+        "answer": 10.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 30.0,
+        "correct": false,
+        "latex_expr": "95 - 65"
+      },
+      "zs_pot": {
+        "answer": 35.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 35.0,
+        "correct": false,
+        "latex_expr": "95 - 60"
+      }
+    }
+  },
+  {
+    "question_id": 357382,
+    "complexity": "hard+",
+    "origin_dataset": "FinChartBench",
+    "image": "1519798099_9_crop_0.jpg",
+    "question": "What percentage of the total revenue in 2015 is from Inst & Accy?",
+    "answer": 50,
+    "latex_expression": "\\frac{1100}{2200} \\times 100",
+    "placeholder_expression": "\\frac{Inst_Accy_2015}{total_revenue_2015} \\times 100",
+    "values_extracted": {
+      "Inst_Accy_2015": 1100,
+      "total_revenue_2015": 2200
+    },
+    "reasoning": "In 2015, the Inst & Accy segment is about $1,100, and the total revenue is about $2,200. The percentage is ($1,100 / $2,200) * 100 = 50%.",
+    "predictions": {
+      "direct": {
+        "answer": 50.0,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 50.0,
+        "correct": true,
+        "latex_expr": "(1200 / 2400) * 100"
+      },
+      "zs_pot": {
+        "answer": 50.0,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 0.7,
+        "correct": false,
+        "latex_expr": "\\frac{70}{100}"
+      }
+    }
+  },
+  {
+    "question_id": 412031,
+    "complexity": "hard+",
+    "origin_dataset": "FinMME",
+    "image": "1670.jpg",
+    "question": "Calculate the percentage change in stock price from 2023/01/01 to 2024/01/01.",
+    "answer": 33.3,
+    "latex_expression": "\\frac{66666.67 - 50000.0}{50000.0} \\times 100",
+    "placeholder_expression": "\\frac{closing_price_2024_01_01 - closing_price_2023_01_01}{closing_price_2023_01_01} \\times 100",
+    "values_extracted": {
+      "closing_price_2023_01_01": 50000.0,
+      "closing_price_2024_01_01": 66666.67
+    },
+    "reasoning": "To calculate the percentage change in stock price, we need to identify the closing prices on 2023/01/01 and 2024/01/01. Then, we apply the formula for percentage change: ((new_price - old_price) / old_price) * 100. The new_price corresponds to the closing price on 2024/01/01, and the old_price corresponds to the closing price on 2023/01/01.",
+    "predictions": {
+      "direct": {
+        "answer": -1500.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": -11.11111111111111,
+        "correct": false,
+        "latex_expr": "\\frac{40000 - 45000}{45000} \\times 100"
+      },
+      "zs_pot": {
+        "answer": -11.11111111111111,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": -11.11111111111111,
+        "correct": false,
+        "latex_expr": "\\frac{40000 - 45000}{45000} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 768274,
+    "complexity": "hard+",
+    "origin_dataset": "FinChartBench",
+    "image": "1328334423_22_crop_0.jpg",
+    "question": "What is the total EBITDA (in millions USD) for O&P AM - as Reported from 2011 to 2014?",
+    "answer": 12700,
+    "latex_expression": "2100 + 3000 + 3500 + 4100",
+    "placeholder_expression": "OPA_AM_2011 + OPA_AM_2012 + OPA_AM_2013 + OPA_AM_2014",
+    "values_extracted": {
+      "OPA_AM_2011": 2100,
+      "OPA_AM_2012": 3000,
+      "OPA_AM_2013": 3500,
+      "OPA_AM_2014": 4100
+    },
+    "reasoning": "From the chart, the O&P AM - as Reported values for each year are approximately: 2011: 2,100, 2012: 3,000, 2013: 3,500, 2014: 4,100. Summing these values gives: 2,100 + 3,000 + 3,500 + 4,100 = 12,700.",
+    "predictions": {
+      "direct": {
+        "answer": 10000.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 12900.0,
+        "correct": true,
+        "latex_expr": "2100 + 3000 + 3600 + 4200"
+      },
+      "zs_pot": {
+        "answer": 13100.0,
+        "correct": true
+      },
+      "ft_eot": {
+        "answer": 12900.0,
+        "correct": true,
+        "latex_expr": "2200 + 3000 + 3500 + 4200"
+      }
+    }
+  },
+  {
+    "question_id": 193190,
+    "complexity": "hard+",
+    "origin_dataset": "FinMME",
+    "image": "2476.jpg",
+    "question": "Calculate the percentage change in share price from January 2019 to January 2024.",
+    "answer": 300.0,
+    "latex_expression": "\\frac{2000 - 500}{500} \\times 100",
+    "placeholder_expression": "\\frac{share_price_jan_2024 - share_price_jan_2019}{share_price_jan_2019} \\times 100",
+    "values_extracted": {
+      "share_price_jan_2019": 500,
+      "share_price_jan_2024": 2000
+    },
+    "reasoning": "To calculate the percentage change in share price from January 2019 to January 2024, we need to identify the share prices for both dates from the chart. Then, we apply the formula for percentage change: ((new_value - original_value) / original_value) * 100. The share price in January 2019 can be read from the chart as the starting point of the red line, and the share price in January 2024 is where the red line intersects the vertical dashed line.",
+    "predictions": {
+      "direct": {
+        "answer": 1000.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 300.0,
+        "correct": true,
+        "latex_expr": "\\frac{2000 - 500}{500} \\times 100"
+      },
+      "zs_pot": {
+        "answer": 900.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 300.0,
+        "correct": true,
+        "latex_expr": "\\frac{2000 - 500}{500} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 947212,
+    "complexity": "hard+",
+    "origin_dataset": "FinChartBench",
+    "image": "1567273627_18_crop_0.jpg",
+    "question": "By what percentage did the tumor volume increase in the Vehicle group from Day 0 to Day 20?",
+    "answer": 620,
+    "latex_expression": "\\frac{1800 - 250}{250} \\times 100",
+    "placeholder_expression": "\\frac{Vehicle_tumor_day20 - Vehicle_tumor_day0}{Vehicle_tumor_day0} \\times 100",
+    "values_extracted": {
+      "Vehicle_tumor_day0": 250,
+      "Vehicle_tumor_day20": 1800
+    },
+    "reasoning": "At Day 0, the tumor volume for the Vehicle group is about 250 mmÂ³. At Day 20, it is about 1800 mmÂ³. The increase is 1800 mmÂ³ - 250 mmÂ³ = 1550 mmÂ³. The percentage increase is (1550 / 250) * 100% = 620%.",
+    "predictions": {
+      "direct": {
+        "answer": 1750.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 800.0,
+        "correct": false,
+        "latex_expr": "\\frac{1800 - 200}{200} \\times 100"
+      },
+      "zs_pot": {
+        "answer": 800.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 500.0,
+        "correct": false,
+        "latex_expr": "\\frac{1800 - 300}{300} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 644806,
+    "complexity": "hard+",
+    "origin_dataset": "FinMME",
+    "image": "3771.jpg",
+    "question": "Calculate the percentage change in the GNP vs others ratio from February 2016 to February 2020.",
+    "answer": -15.79,
+    "latex_expression": "\\frac{80 - 95}{95} \\times 100",
+    "placeholder_expression": "\\frac{gnp_vs_others_feb_2020_pct - gnp_vs_others_feb_2016_pct}{gnp_vs_others_feb_2016_pct} \\times 100",
+    "values_extracted": {
+      "gnp_vs_others_feb_2016_pct": 95,
+      "gnp_vs_others_feb_2020_pct": 80
+    },
+    "reasoning": null,
+    "predictions": {
+      "direct": {
+        "answer": -30.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": -60.0,
+        "correct": false,
+        "latex_expr": "\\frac{40 - 100}{100} \\times 100"
+      },
+      "zs_pot": {
+        "answer": -47.05882352941176,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": -37.5,
+        "correct": false,
+        "latex_expr": "\\frac{50 - 80}{80} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 411934,
+    "complexity": "hard+",
+    "origin_dataset": "FinChartBench",
+    "image": "1328334423_23_crop_1.jpg",
+    "question": "By how many billion pounds did demand increase from 2010 to 2020?",
+    "answer": 85,
+    "latex_expression": "280 - 195",
+    "placeholder_expression": "demand_2020 - demand_2010",
+    "values_extracted": {
+      "demand_2010": 195,
+      "demand_2020": 280
+    },
+    "reasoning": "In 2010, demand is approximately 195 billion lbs. In 2020, demand is approximately 280 billion lbs. The increase is 280 - 195 = 85 billion lbs.",
+    "predictions": {
+      "direct": {
+        "answer": 85.5,
+        "correct": true
+      },
+      "zs_eot": {
+        "answer": 80.0,
+        "correct": false,
+        "latex_expr": "245 - 165"
+      },
+      "zs_pot": {
+        "answer": 80.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 75.0,
+        "correct": false,
+        "latex_expr": "240 - 165"
+      }
+    }
+  },
+  {
+    "question_id": 571479,
+    "complexity": "hard+",
+    "origin_dataset": "FinMME",
+    "image": "704.jpg",
+    "question": "Calculate the percentage contribution of Gaming to the total revenue at the end of the timeline.",
+    "answer": 12.73,
+    "latex_expression": "\\frac{2800}{22000} \\times 100",
+    "placeholder_expression": "\\frac{gaming_revenue_end}{total_revenue_end} \\times 100",
+    "values_extracted": {
+      "gaming_revenue_end": 2800,
+      "total_revenue_end": 22000
+    },
+    "reasoning": "To calculate the percentage contribution of Gaming to the total revenue at the end of the timeline, we need to identify the values for Gaming and Total revenues at the last data point. Then, we apply the formula: (Gaming_revenue / Total_revenue) * 100. The values can be read directly from the chart.",
+    "predictions": {
+      "direct": {
+        "answer": 1.2,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 9.09090909090909,
+        "correct": false,
+        "latex_expr": "\\frac{2000}{22000} \\times 100"
+      },
+      "zs_pot": {
+        "answer": 11.363636363636363,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 11.363636363636363,
+        "correct": false,
+        "latex_expr": "\\frac{2500}{22000} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 968351,
+    "complexity": "hard+",
+    "origin_dataset": "FinChartBench",
+    "image": "1574266157_22_crop_2.jpg",
+    "question": "What was the percentage increase in prime office rent in London City from 2010 to 2017?",
+    "answer": 42.86,
+    "latex_expression": "\\frac{1000 - 700}{700} \\times 100",
+    "placeholder_expression": "\\frac{London_City_rent_2017 - London_City_rent_2010}{London_City_rent_2010} \\times 100",
+    "values_extracted": {
+      "London_City_rent_2010": 700,
+      "London_City_rent_2017": 1000
+    },
+    "reasoning": "In 2010, the rent in London City was about â‚¬700 per sqm p.a. In 2017, it was about â‚¬1,000 per sqm p.a. The percentage increase is ((1,000 - 700) / 700) * 100 = (300 / 700) * 100 â‰ˆ 42.86%.",
+    "predictions": {
+      "direct": {
+        "answer": 125.0,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 37.5,
+        "correct": false,
+        "latex_expr": "\\frac{|1100 - 800|}{800} \\times 100"
+      },
+      "zs_pot": {
+        "answer": 37.5,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 57.142857142857146,
+        "correct": false,
+        "latex_expr": "\\frac{1100 - 700}{700} \\times 100"
+      }
+    }
+  },
+  {
+    "question_id": 846273,
+    "complexity": "hard+",
+    "origin_dataset": "FinMME",
+    "image": "4647.jpg",
+    "question": "What is the approximate average closing price between 2021/07/01 and 2023/07/01?",
+    "answer": 16.6,
+    "latex_expression": "\\frac{17 + 25 + 15 + 13 + 13}{5}",
+    "placeholder_expression": "\\frac{closing_price_2021_jul_hkd + closing_price_2022_jan_hkd + closing_price_2022_jul_hkd + closing_price_2023_jan_hkd + closing_price_2023_jul_hkd}{5}",
+    "values_extracted": {
+      "closing_price_2021_jul_hkd": 17,
+      "closing_price_2022_jan_hkd": 25,
+      "closing_price_2022_jul_hkd": 15,
+      "closing_price_2023_jan_hkd": 13,
+      "closing_price_2023_jul_hkd": 13
+    },
+    "reasoning": null,
+    "predictions": {
+      "direct": {
+        "answer": 24.5,
+        "correct": false
+      },
+      "zs_eot": {
+        "answer": 25.0,
+        "correct": false,
+        "latex_expr": "(33.00 + 17.00) / 2"
+      },
+      "zs_pot": {
+        "answer": 25.0,
+        "correct": false
+      },
+      "ft_eot": {
+        "answer": 24.75,
+        "correct": false,
+        "latex_expr": "\\frac{32 + 27 + 22 + 18}{4}"
+      }
+    }
+  }
+]
