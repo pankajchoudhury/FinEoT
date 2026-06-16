@@ -1,6 +1,6 @@
-# FinEOT Dataset — Sample Release
+# FinEoT Dataset — Sample Release
 
-This folder contains **40 sample questions** from the **FinEOT** benchmark, a dataset for numerical question answering over financial charts using Expression-of-Thought (EoT) reasoning.
+This folder contains **40 sample questions** from the **FinEoT** benchmark, a dataset for numerical question answering over financial charts using Expression-of-Thought (EoT) reasoning.
 
 > **The full dataset will be made publicly available upon paper acceptance.**
 
@@ -8,7 +8,7 @@ This folder contains **40 sample questions** from the **FinEOT** benchmark, a da
 
 ## Dataset Overview
 
-FinEOT is a financial chart question answering benchmark focused on **numerical computation** over real-world financial charts. Each question requires extracting values from a chart and applying a mathematical operation to arrive at a numeric answer.
+FinEoT is a financial chart question answering benchmark focused on **numerical computation** over real-world financial charts. Each question requires extracting values from a chart and applying a mathematical operation to arrive at a numeric answer.
 
 | Property | Value |
 |---|---|
@@ -41,7 +41,7 @@ This release contains **10 samples per complexity level** (40 total), stratified
 appendix_samples/
 ├── README.md
 ├── fineot_samples.json       # Sample annotations
-└── images/                   # Corresponding chart images (40 files)
+└── charts/                   # Corresponding chart images
 ```
 
 ### JSON Schema
@@ -79,7 +79,7 @@ If you use these samples, please cite our paper:
 
 ```bibtex
 @article{fineot2026,
-  title   = {Expression-of-Thought: Numerical Reasoning over Financial Charts},
+  title   = {Expression-of-Thought: Improving Numerical Reasoning of Small Vision-Language Models for Financial ChartQA},
   author  = {},
   journal = {},
   year    = {2026}

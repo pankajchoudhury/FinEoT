@@ -1,7 +1,7 @@
 [
   {
     "question_id": 739346,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinChartBench",
     "image": "1604915577_4_crop_0.jpg",
     "question": "What is the difference between the highest and lowest P&C Combined Ratio values across all quarters shown?",
@@ -36,7 +36,7 @@
   },
   {
     "question_id": 376704,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinMME",
     "image": "2956.jpg",
     "question": "What is the total percentage of funds allocated to Capex and Purchase of investments?",
@@ -71,7 +71,7 @@
   },
   {
     "question_id": 243950,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinChartBench",
     "image": "1254760731_38_crop_1.jpg",
     "question": "What is the total decrease in completion cost per well from 2011 to 2014?",
@@ -106,7 +106,7 @@
   },
   {
     "question_id": 854685,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinMME",
     "image": "918.jpg",
     "question": "What is the difference in WAM (years) between Market UST (net of Fed) in the Present and 10-year columns?",
@@ -141,7 +141,7 @@
   },
   {
     "question_id": 885228,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinChartBench",
     "image": "1870529466_9_crop_1.jpg",
     "question": "What is the percentage point difference between Urban and Suburban location densities?",
@@ -176,7 +176,7 @@
   },
   {
     "question_id": 318011,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinMME",
     "image": "4318.jpg",
     "question": "What is the percentage change in Personal Business Loans from 1Q21 to 4Q23?",
@@ -211,7 +211,7 @@
   },
   {
     "question_id": 109507,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinChartBench",
     "image": "1323118707_4_crop_1.jpg",
     "question": "By how many percentage points did the Core ROA increase from 1Q13 to its peak value in the chart?",
@@ -246,7 +246,7 @@
   },
   {
     "question_id": 421021,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinMME",
     "image": "62.jpg",
     "question": "What is the difference in allocation value between the Interval Fund and the Tender Offer?",
@@ -281,7 +281,7 @@
   },
   {
     "question_id": 955222,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinChartBench",
     "image": "1776153516_45_crop_1.jpg",
     "question": "By how many percentage points did the Fixed Rate portion of the bond portfolio decrease from June 2023 to June 2024?",
@@ -316,7 +316,7 @@
   },
   {
     "question_id": 449514,
-    "complexity": "easy",
+    "difficulty": "easy",
     "origin_dataset": "FinMME",
     "image": "1057.jpg",
     "question": "Calculate the difference between the highest and lowest 1-Year MCLR for private banks during the period shown.",
@@ -351,7 +351,7 @@
   },
   {
     "question_id": 430284,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinMME",
     "image": "702.jpg",
     "question": "What is the sum of the dividend yields of all countries shown in the chart?",
@@ -390,7 +390,7 @@
   },
   {
     "question_id": 362905,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinChartBench",
     "image": "1328841071_14_crop_1.jpg",
     "question": "What is the percentage increase in total debt from Q3 14 to Q4 14?",
@@ -425,7 +425,7 @@
   },
   {
     "question_id": 417094,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinMME",
     "image": "790.jpg",
     "question": "What is the total number of Venustech security operation centers over the years 2017 to 2021?",
@@ -463,7 +463,7 @@
   },
   {
     "question_id": 932926,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinChartBench",
     "image": "1601901277_12_crop_0.jpg",
     "question": "What is the total amount of purchase originations (in $bn) for all five quarters combined?",
@@ -501,7 +501,7 @@
   },
   {
     "question_id": 954703,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinMME",
     "image": "2745.jpg",
     "question": "What is the AUM CAGR for the period FY15-19?",
@@ -537,7 +537,7 @@
   },
   {
     "question_id": 466701,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinChartBench",
     "image": "1251410955_5_crop_0.jpg",
     "question": "What is the percentage increase in total revenues from Q4 '13 to Q4 '14?",
@@ -572,7 +572,7 @@
   },
   {
     "question_id": 271179,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinMME",
     "image": "796.jpg",
     "question": "What is the percentage increase in the Industrials sector M/L-T loans as a percentage of total M/L-T corporate loans from 3Q23 to 4Q23?",
@@ -607,7 +607,7 @@
   },
   {
     "question_id": 486890,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinChartBench",
     "image": "1271687833_21_crop_0.jpg",
     "question": "What is the percentage change in 'Corporate and Other' Adjusted EBITDA from 2013 to 2014?",
@@ -643,7 +643,7 @@
   },
   {
     "question_id": 405712,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinMME",
     "image": "197.jpg",
     "question": "What is the average 'Issuer Mapping Accuracy' for all assets in the chart?",
@@ -686,7 +686,7 @@
   },
   {
     "question_id": 688408,
-    "complexity": "medium",
+    "difficulty": "medium",
     "origin_dataset": "FinChartBench",
     "image": "1861668894_31_crop_0.jpg",
     "question": "What is the average quarterly increase in the Loans to Deposits Ratio from Q4.21 to Q4.22?",
@@ -721,7 +721,7 @@
   },
   {
     "question_id": 399879,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "FinChartBench",
     "image": "1609544347_7_crop_1.jpg",
     "question": "By how much did the Adjusted EBITDA in Q4 increase from FY '14 to FY '15?",
@@ -756,7 +756,7 @@
   },
   {
     "question_id": 312431,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "FinMME",
     "image": "6587.jpg",
     "question": "What is the approximate difference in closing price between 2021/07/01 and 2024/01/01?",
@@ -791,7 +791,7 @@
   },
   {
     "question_id": 785560,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "MMEFinance",
     "image": "indicator_8_b.jpg",
     "question": "What is the difference between the values of RSI6 and RSI12 in the chart?",
@@ -826,7 +826,7 @@
   },
   {
     "question_id": 341867,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "FinChartBench",
     "image": "1540751181_8_crop_1.jpg",
     "question": "What is the difference in cents per pound between the peak value and the lowest value of the blue line during 2016?",
@@ -861,7 +861,7 @@
   },
   {
     "question_id": 913836,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "FinMME",
     "image": "3844.jpg",
     "question": "What is the DAU difference between ChatGPT and Bing in June 2023?",
@@ -896,7 +896,7 @@
   },
   {
     "question_id": 804911,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "MMEFinance",
     "image": "statistic_18_b.jpg",
     "question": "What is the combined revenue of 'Buoy' and 'Services'?",
@@ -931,7 +931,7 @@
   },
   {
     "question_id": 956976,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "FinChartBench",
     "image": "1261481463_10_crop_1.jpg",
     "question": "What is the difference between the highest and lowest Recorded Combined Ratio values shown in the chart?",
@@ -966,7 +966,7 @@
   },
   {
     "question_id": 640823,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "FinMME",
     "image": "4191.jpg",
     "question": "By how much did the stock price increase between 2021/07/01 and 2024/01/01?",
@@ -1001,7 +1001,7 @@
   },
   {
     "question_id": 602372,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "MMEFinance",
     "image": "candlestick_5_d.jpg",
     "question": "What is the change in stock value of Meta Platforms, Inc. from the beginning to the end of the chart?",
@@ -1036,7 +1036,7 @@
   },
   {
     "question_id": 369665,
-    "complexity": "hard",
+    "difficulty": "hard",
     "origin_dataset": "FinChartBench",
     "image": "1528851929_22_crop_0.jpg",
     "question": "What is the difference in mainline capacity utilization between SFPP and Cochin in 2016B?",
@@ -1071,7 +1071,7 @@
   },
   {
     "question_id": 357382,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinChartBench",
     "image": "1519798099_9_crop_0.jpg",
     "question": "What percentage of the total revenue in 2015 is from Inst & Accy?",
@@ -1106,7 +1106,7 @@
   },
   {
     "question_id": 412031,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinMME",
     "image": "1670.jpg",
     "question": "Calculate the percentage change in stock price from 2023/01/01 to 2024/01/01.",
@@ -1141,7 +1141,7 @@
   },
   {
     "question_id": 768274,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinChartBench",
     "image": "1328334423_22_crop_0.jpg",
     "question": "What is the total EBITDA (in millions USD) for O&P AM - as Reported from 2011 to 2014?",
@@ -1178,7 +1178,7 @@
   },
   {
     "question_id": 193190,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinMME",
     "image": "2476.jpg",
     "question": "Calculate the percentage change in share price from January 2019 to January 2024.",
@@ -1213,7 +1213,7 @@
   },
   {
     "question_id": 947212,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinChartBench",
     "image": "1567273627_18_crop_0.jpg",
     "question": "By what percentage did the tumor volume increase in the Vehicle group from Day 0 to Day 20?",
@@ -1248,7 +1248,7 @@
   },
   {
     "question_id": 644806,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinMME",
     "image": "3771.jpg",
     "question": "Calculate the percentage change in the GNP vs others ratio from February 2016 to February 2020.",
@@ -1283,7 +1283,7 @@
   },
   {
     "question_id": 411934,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinChartBench",
     "image": "1328334423_23_crop_1.jpg",
     "question": "By how many billion pounds did demand increase from 2010 to 2020?",
@@ -1318,7 +1318,7 @@
   },
   {
     "question_id": 571479,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinMME",
     "image": "704.jpg",
     "question": "Calculate the percentage contribution of Gaming to the total revenue at the end of the timeline.",
@@ -1353,7 +1353,7 @@
   },
   {
     "question_id": 968351,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinChartBench",
     "image": "1574266157_22_crop_2.jpg",
     "question": "What was the percentage increase in prime office rent in London City from 2010 to 2017?",
@@ -1388,7 +1388,7 @@
   },
   {
     "question_id": 846273,
-    "complexity": "hard+",
+    "difficulty": "hard+",
     "origin_dataset": "FinMME",
     "image": "4647.jpg",
     "question": "What is the approximate average closing price between 2021/07/01 and 2023/07/01?",
